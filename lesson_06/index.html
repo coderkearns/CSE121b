@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 121b Project: Choose Your Own Adventure</title>
+    <style>
+        span.end {
+            font-size: 3rem;
+            line-height: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        span.end-good {
+            color: #0f0;
+        }
+
+        span.end-good::before {
+            content: "😅"
+        }
+
+        span.end-bad {
+            color: #f00;
+        }
+
+        span.end-bad::before {
+            content: "💀"
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Choose Your Own Adventure: Halloween Edition</h1>
+    <p>By Carter Kearns. There are 4 endings, so you should be able to play them all.</p>
+    <button onclick="restart()">Restart from beginning.</button>
+    <main id="content">
+
+    </main>
+</body>
+
+
+<script src="./scripts/story.js"></script>
+<script src="./scripts/index.js"></script>
+
+<script>
+    renderStory(mainStory)
+
+    function restart() {
+        renderStory(mainStory)
+    }
+</script>
+
+</html>
