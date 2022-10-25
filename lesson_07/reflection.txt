@@ -1,0 +1,52 @@
+## Examples
+
+1. MDN Docs on .map()
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+It provides examples, which I believe to be one of the largest factors.
+The fact that the examples are working interactive demos are even better.
+It provides a good API reference, which I don't believe is required in all cases but is very useful here.
+It comes from a commonly trusted source to further establish credibility.
+Lastly, it is open-source and problems can easily be addressed, ensuring accurate and *current* information.
+
+
+2. StackOverflow: The accepted answer to this question about .map()
+
+https://stackoverflow.com/questions/17367889/what-is-the-concept-of-array-map
+
+It again provides an example, this time a fixed version of the question.
+It explains both why and how the code works and is written.
+The author is known to be credible (StackOverflow makes this really easy by publicly displaying reputation scores)
+
+3. W3Schools Docs on .map()
+
+https://www.w3schools.com/jsref/jsref_map.asp
+
+Again, examples are provided both as a general explanation and as a solution to a couple specific problems.
+It explains when you would want to use map.
+The examples are interactive, proving that they work.
+Commonly-known and credible source: W3Schools.
+
+4. FreeCodeCamp Article on .map()
+
+https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/
+
+It provides an example.
+It uses common parameter names to explain what each parameter does: `arr.map(function(element, index, array){  }, this);`
+Provides a very-specific example to a specific problem (mapping over objects)
+Credible source: I don't know the author, but I know FreeCodeCamp checks its articles
+
+5. GeeksForGeeks .map() Tutorial
+
+https://www.geeksforgeeks.org/javascript-array-map-method/
+
+Provides multiple examples *in context* for beginners
+Gives API with explanation of each parameter
+
+## Rules for Good Sources
+
+- Examples (bonus points for specific problems and examples in-context)
+- API Reference
+- Explanation of why and when to use
+- Credible source, or posted on credible website known to moderate its content
